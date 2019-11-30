@@ -13,4 +13,6 @@ Analyse and describe the graduation mobility in UK
 
 
 <h4> work flow: </h4>
-1. complete the mobility of graducations from HE provider to employment
+1. complete the mobility of graducations from HE provider to employment.
+2. Complete the gapminder dataset
+
