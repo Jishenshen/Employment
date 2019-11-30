@@ -10,3 +10,7 @@ Analyse and describe the graduation mobility in UK
 
 
 <p>may could use more than one years to see the trend of employment mobility
+
+
+<h4> work flow: </h4>
+1. complete the mobility of graducations from HE provider to employment
