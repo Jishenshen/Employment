@@ -1,5 +1,5 @@
 var d3 = Plotly.d3;
-var dataUrl = 'https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv'
+var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/difyears_gra.csv'
 
 d3.csv(dataUrl, (err, rows) => {
 	var fig = makeFigure(rows)
@@ -38,11 +38,10 @@ function makeFigure (rows) {
 		
 		var trace = lookup[year]
 		
-		trace.x.push(r.lifeExp)
-		trace.y.push(r.gdpPercap)
-		trace.ids.push(r.country)
-		trace.text.push(r.country)
-		trace.marker.size.push(r.pop)
+	//	trace.x.push(r.lifeExp)
+		trace.y.push(r.graduation)
+		trace.ids.push(r.region)
+		trace.text.push(r.region)
 		trace.marker.color.push(colormap(r.continent))
 	})
 	
