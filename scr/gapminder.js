@@ -38,11 +38,12 @@ function makeFigure (rows) {
 		
 		var trace = lookup[year]
 		
-	//	trace.x.push(r.lifeExp)
-		trace.y.push(r.graduation)
+		trace.x.push(r.lifeExp)
+		trace.y.push(r.gdpPercap)
 		trace.ids.push(r.region)
 		trace.text.push(r.region)
-		trace.marker.color.push(colormap(r.continent))
+		trace.marker.size.push(r.pop)
+		trace.marker.color.push(colormap(r.region))
 	})
 	
 	var years = Object.keys(lookup)
@@ -100,7 +101,7 @@ function makeFigure (rows) {
 				range: [30, 85]
 			},
 			yaxis: {
-				title: 'Number of graduation',
+				title: 'Graduation number',
 				type: 'log'
 			},
 			showlegend: false,
