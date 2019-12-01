@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  font-family: Lato;
+  font-size: 18px;
+  background: #3f3f4f;
+  color: #ffffff;       
+}
+
+input {
+  font-family: Lato;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+#chartdiv {
+    width   : 100%;
+    height  : 500px;
+}
+
+#controls {
+  border: 1px solid #676781;
+  padding: 15px;
+  border-radius: 7px;
+  margin-top: 15px;
+}
+
+#frame {
+  font-weight: 700;
+}
