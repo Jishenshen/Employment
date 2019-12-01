@@ -1,5 +1,5 @@
 var d3 = Plotly.d3;
-var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/difyears_gra.csv'
+var dataUrl = 'https://github.com/Jishenshen/Employment/blob/master/data/difyears_graclean.csv'
 
 d3.csv(dataUrl, (err, rows) => {
 	var fig = makeFigure(rows)
