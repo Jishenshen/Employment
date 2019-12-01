@@ -1,0 +1,122 @@
+region,year,pop,continent,lifeExp,gdpPercap
+East Midlands,2016,15865,East Midlands,16,15865
+East Midlands,2015,15795,East Midlands,15,15795
+East Midlands,2014,16320,East Midlands,14,16320
+East Midlands,2013,17935,East Midlands,13,17935
+East Midlands,2012,17855,East Midlands,12,17855
+East Midlands,2011,17025,East Midlands,11,17025
+East Midlands,2010,16235,East Midlands,10,16235
+East Midlands,2009,15900,East Midlands,9,15900
+East Midlands,2008,14220,East Midlands,8,14220
+East Midlands,2007,13205,East Midlands,7,13205
+East of England,2016,19285,East of England,16,19285
+East of England,2015,19050,East of England,15,19050
+East of England,2014,20010,East of England,14,20010
+East of England,2013,22180,East of England,13,22180
+East of England,2012,21565,East of England,12,21565
+East of England,2011,20855,East of England,11,20855
+East of England,2010,19415,East of England,10,19415
+East of England,2009,18345,East of England,9,18345
+East of England,2008,16485,East of England,8,16485
+East of England,2007,16165,East of England,7,16165
+"Guernsey, Jersey and the Isle of Man",2016,455,"Guernsey, Jersey and the Isle of Man",16,455
+London,2016,62160,London,16,62160
+London,2015,58355,London,15,58355
+London,2014,61770,London,14,61770
+London,2013,65215,London,13,65215
+London,2012,62355,London,12,62355
+London,2011,55305,London,11,55305
+London,2010,55040,London,10,55040
+London,2009,52010,London,9,52010
+London,2008,46010,London,8,46010
+London,2007,46610,London,7,46610
+North East,2016,10285,North East,16,10285
+North East,2015,10040,North East,15,10040
+North East,2014,10530,North East,14,10530
+North East,2013,11015,North East,13,11015
+North East,2012,11275,North East,12,11275
+North East,2011,11320,North East,11,11320
+North East,2010,11385,North East,10,11385
+North East,2009,11365,North East,9,11365
+North East,2008,9620,North East,8,9620
+North East,2007,9150,North East,7,9150
+North West,2016,30220,North West,16,30220
+North West,2015,29985,North West,15,29985
+North West,2014,31240,North West,14,31240
+North West,2013,33745,North West,13,33745
+North West,2012,33630,North West,12,33630
+North West,2011,31925,North West,11,31925
+North West,2010,29540,North West,10,29540
+North West,2009,28720,North West,9,28720
+North West,2008,27250,North West,8,27250
+North West,2007,26360,North West,7,26360
+Northern Ireland,2016,8155,Northern Ireland,16,8155
+Northern Ireland,2015,7795,Northern Ireland,15,7795
+Northern Ireland,2014,7600,Northern Ireland,14,7600
+Northern Ireland,2013,7620,Northern Ireland,13,7620
+Northern Ireland,2012,7920,Northern Ireland,12,7920
+Northern Ireland,2011,7720,Northern Ireland,11,7720
+Northern Ireland,2010,6570,Northern Ireland,10,6570
+Northern Ireland,2009,6795,Northern Ireland,9,6795
+Northern Ireland,2008,6505,Northern Ireland,8,6505
+Northern Ireland,2007,7840,Northern Ireland,7,7840
+Scotland,2016,22240,Scotland,16,22240
+Scotland,2015,21520,Scotland,15,21520
+Scotland,2014,20890,Scotland,14,20890
+Scotland,2013,22050,Scotland,13,22050
+Scotland,2012,21810,Scotland,12,21810
+Scotland,2011,20515,Scotland,11,20515
+Scotland,2010,20350,Scotland,10,20350
+Scotland,2009,19770,Scotland,9,19770
+Scotland,2008,19625,Scotland,8,19625
+Scotland,2007,22380,Scotland,7,22380
+South East,2016,33625,South East,16,33625
+South East,2015,33155,South East,15,33155
+South East,2014,34695,South East,14,34695
+South East,2013,37560,South East,13,37560
+South East,2012,37450,South East,12,37450
+South East,2011,34685,South East,11,34685
+South East,2010,33450,South East,10,33450
+South East,2009,31730,South East,9,31730
+South East,2008,29040,South East,8,29040
+South East,2007,28975,South East,7,28975
+South West,2016,19940,South West,16,19940
+South West,2015,19880,South West,15,19880
+South West,2014,20725,South West,14,20725
+South West,2013,22035,South West,13,22035
+South West,2012,22650,South West,12,22650
+South West,2011,21270,South West,11,21270
+South West,2010,20715,South West,10,20715
+South West,2009,20290,South West,9,20290
+South West,2008,18140,South West,8,18140
+South West,2007,18880,South West,7,18880
+Wales,2016,12390,Wales,16,12390
+Wales,2015,12440,Wales,15,12440
+Wales,2014,12465,Wales,14,12465
+Wales,2013,12710,Wales,13,12710
+Wales,2012,12520,Wales,12,12520
+Wales,2011,12665,Wales,11,12665
+Wales,2010,12715,Wales,10,12715
+Wales,2009,12445,Wales,9,12445
+Wales,2008,11530,Wales,8,11530
+Wales,2007,12935,Wales,7,12935
+West Midlands,2016,22270,West Midlands,16,22270
+West Midlands,2015,22505,West Midlands,15,22505
+West Midlands,2014,22590,West Midlands,14,22590
+West Midlands,2013,23710,West Midlands,13,23710
+West Midlands,2012,23900,West Midlands,12,23900
+West Midlands,2011,22680,West Midlands,11,22680
+West Midlands,2010,21365,West Midlands,10,21365
+West Midlands,2009,20175,West Midlands,9,20175
+West Midlands,2008,17850,West Midlands,8,17850
+West Midlands,2007,18260,West Midlands,7,18260
+Yorkshire and The Humber,2016,20055,Yorkshire and The Humber,16,20055
+Yorkshire and The Humber,2015,20480,Yorkshire and The Humber,15,20480
+Yorkshire and The Humber,2014,20960,Yorkshire and The Humber,14,20960
+Yorkshire and The Humber,2013,22205,Yorkshire and The Humber,13,22205
+Yorkshire and The Humber,2012,21760,Yorkshire and The Humber,12,21760
+Yorkshire and The Humber,2011,18640,Yorkshire and The Humber,11,18640
+Yorkshire and The Humber,2010,19985,Yorkshire and The Humber,10,19985
+Yorkshire and The Humber,2009,19295,Yorkshire and The Humber,9,19295
+Yorkshire and The Humber,2008,17395,Yorkshire and The Humber,8,17395
+Yorkshire and The Humber,2007,17505,Yorkshire and The Humber,7,17505

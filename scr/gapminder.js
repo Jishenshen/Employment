@@ -22,8 +22,8 @@ function makeFigure (rows) {
 		ids: [],
 		text: [],
 		marker: {
-			sizemode: 'area',
-     	   sizeref: 200000,
+		   sizemode: 'area',
+     	   sizeref: 50,
 			size: [],
 			color: []
 		}
@@ -43,7 +43,7 @@ function makeFigure (rows) {
 		trace.ids.push(r.region)
 		trace.text.push(r.region)
 		trace.marker.size.push(r.pop)
-		trace.marker.color.push(colormap(r.region))
+		trace.marker.color.push(colormap(r.continent))
 	})
 	
 	var years = Object.keys(lookup)
@@ -59,7 +59,7 @@ function makeFigure (rows) {
 				},
 				line: {
 					simplify: false,
-					width: 2						
+					width: 1						
 				},
 				hoverinfo: 'skip'
 			}, 
@@ -97,11 +97,11 @@ function makeFigure (rows) {
         		font: {size: 18}
 			}],
 			xaxis: {
-				title: 'Year',
-				range: [30, 85]
+				title: ' Year',
+				range: [6,17]
 			},
 			yaxis: {
-				title: 'Graduation number',
+				title: 'Employment',
 				type: 'log'
 			},
 			showlegend: false,
