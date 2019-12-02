@@ -1,0 +1,53 @@
+region,year,pop,continent,lifeExp,gdpPercap
+East Midlands,2015,7.2,East Midlands,1,7.2
+East Midlands,2012,7.1,East Midlands,3,7.1
+East Midlands,2010,6.7,East Midlands,5,6.7
+East Midlands,2005,6.5,East Midlands,10,6.5
+East of England,2015,9.4,East of England,1,9.4
+East of England,2012,9.4,East of England,3,9.4
+East of England,2010,9,East of England,5,9
+East of England,2005,8.7,East of England,10,8.7
+London,2015,21,London,1,21
+London,2012,22.6,London,3,22.6
+London,2010,23.5,London,5,23.5
+London,2005,21.8,London,10,21.8
+North East,2015,4.1,North East,1,4.1
+North East,2012,4,North East,3,4
+North East,2010,3.9,North East,5,3.9
+North East,2005,3.8,North East,10,3.8
+North West,2015,12.8,North West,1,12.8
+North West,2012,12.6,North West,3,12.6
+North West,2010,12,North West,5,12
+North West,2005,11.5,North West,10,11.5
+Northern Ireland,2015,0.7,Northern Ireland,1,0.7
+Northern Ireland,2012,0.6,Northern Ireland,3,0.6
+Northern Ireland,2010,0.6,Northern Ireland,5,0.6
+Northern Ireland,2005,0.5,Northern Ireland,10,0.5
+Scotland,2015,0.8,Scotland,1,0.8
+Scotland,2012,0.9,Scotland,3,0.9
+Scotland,2010,1,Scotland,5,1
+Scotland,2005,1.3,Scotland,10,1.3
+South East,2015,15.1,South East,1,15.1
+South East,2012,14.6,South East,3,14.6
+South East,2010,14.1,South East,5,14.1
+South East,2005,14.1,South East,10,14.1
+South West,2015,7.9,South West,1,7.9
+South West,2012,8.8,South West,3,8.8
+South West,2010,7.6,South West,5,7.6
+South West,2005,7.9,South West,10,7.9
+Wales,2015,1.6,Wales,1,1.6
+Wales,2012,1.3,Wales,3,1.3
+Wales,2010,1.3,Wales,5,1.3
+Wales,2005,1.5,Wales,10,1.5
+West Midlands,2015,9.1,West Midlands,1,9.1
+West Midlands,2012,8.6,West Midlands,3,8.6
+West Midlands,2010,8.4,West Midlands,5,8.4
+West Midlands,2005,7.8,West Midlands,10,7.8
+Yorkshire and The Humber,2015,9.1,Yorkshire and The Humber,1,9.1
+Yorkshire and The Humber,2012,8.6,Yorkshire and The Humber,3,8.6
+Yorkshire and The Humber,2010,8.4,Yorkshire and The Humber,5,8.4
+Yorkshire and The Humber,2005,7.8,Yorkshire and The Humber,10,7.8
+Abroad,2015,0.4,Abroad,1,0.4
+Abroad,2012,0.8,Abroad,3,0.8
+Abroad,2010,1.4,Abroad,5,1.4
+Abroad,2005,2.7,Abroad,10,2.7
