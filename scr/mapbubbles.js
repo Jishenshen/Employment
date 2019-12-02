@@ -18,8 +18,8 @@ var latlong = {
     "AUS": {"latitude":-25.2744, "longitude":133.7751},
     "ME": {"latitude":29.2985, "longitude":42.5510},
     "NA": {"latitude":54.5260, "longitude":-105.2551},
-    "SA": {"latitude":-8.7832, "longitude":-55.4915},
-    "UK": {"latitude":55.3781, "longitude":-3.4360}
+    "SA": {"latitude":-8.7832, "longitude":-55.4915}
+    //"UK": {"latitude":55.3781, "longitude":-3.4360}
     
   };
   
@@ -27,23 +27,131 @@ var latlong = {
    * Initial map data
    */
   var mapData = [
-    {"code":"EUUNION" , "name":"Other European Union (EU)", "value":535, "color":"#eea638"},
-    {"code":"EEACOUNTRY" , "name":"Other EEA countries", "value":20, "color":"#d8854f"},
-    {"code":"EUCOUNTRY" , "name":"Other Europe", "value":55, "color":"#de4c4f"},
-    {"code":"AF" , "name":"Africa", "value":50, "color":"#de4c4f"},
-    {"code":"AS" , "name":"Asia", "value":175, "color":"#86a965"},
-    {"code":"AUS" , "name":"Australia", "value":80, "color":"#d8854f"},
-    {"code":"ME" , "name":"Middle East", "value":70, "color":"#8aabb0"},
-    {"code":"NA" , "name":"North America", "value":205, "color":"#d8854f"},
-    {"code":"SA" , "name":"South America", "value":10, "color":"#d8854f"},
-    {"code":"UK" , "name":"United Kingdom", "value":37, "color":"#eea638"}//37005
+    {"code":"EUUNION" , "name":"Other European Union (EU)", "value":325, "color":"#eea638"},
+    {"code":"EEACOUNTRY" , "name":"Other EEA countries", "value":5, "color":"#d8854f"},
+    {"code":"EUCOUNTRY" , "name":"Other Europe", "value":40, "color":"#de4c4f"},
+    {"code":"AF" , "name":"Africa", "value":35, "color":"#de4c4f"},
+    {"code":"AS" , "name":"Asia", "value":165, "color":"#86a965"},
+    {"code":"AUS" , "name":"Australia", "value":115, "color":"#d8854f"},
+    {"code":"ME" , "name":"Middle East", "value":45, "color":"#8aabb0"},
+    {"code":"NA" , "name":"North America", "value":150, "color":"#d8854f"},
+    {"code":"SA" , "name":"South America", "value":5, "color":"#d8854f"}
+    //{"code":"UK" , "name":"United Kingdom", "value":37, "color":"#eea638"}//37005
+  
   ];
   
   /**
    * Values for each of the timeline frames
    */
-  var frames = [
-      { "EUUNION":545,
+
+//2007
+
+var frames = [
+//{ "EUUNION":325,
+//"EEACOUNTRY":5,
+//"EUCOUNTRY":40,
+//"AF":35,
+//"AS":165,
+//"AUS":115,
+//"ME":45,
+//"NA":150,
+//"SA":5
+//// "UK":38  //38485
+//},
+
+//2008
+{ "EUUNION":305,
+"EEACOUNTRY":10,
+"EUCOUNTRY":35,
+"AF":50,
+"AS":135,
+"AUS":130,
+"ME":45,
+"NA":155,
+"SA":5
+// "UK":38  //38485
+},
+
+//2009
+{ "EUUNION":425,
+"EEACOUNTRY":25,
+"EUCOUNTRY":60,
+"AF":85,
+"AS":165,
+"AUS":130,
+"ME":45,
+"NA":225,
+"SA":15
+// "UK":38  //38485
+},
+
+//2010
+{ "EUUNION":515,
+"EEACOUNTRY":0,
+"EUCOUNTRY":85,
+"AF":100,
+"AS":235,
+"AUS":220,
+"ME":60,
+"NA":220,
+"SA":25
+// "UK":38  //38485
+},
+
+//2011
+{ "EUUNION":480,
+"EEACOUNTRY":30,
+"EUCOUNTRY":55,
+"AF":85,
+"AS":210,
+"AUS":190,
+"ME":65,
+"NA":240,
+"SA":20
+// "UK":38  //38485
+},
+
+//2012
+{ "EUUNION":540,
+"EEACOUNTRY":30,
+"EUCOUNTRY":70,
+"AF":125,
+"AS":250,
+"AUS":125,
+"ME":80,
+"NA":275,
+"SA":20
+// "UK":38  //38485
+},
+
+  //2013
+  { "EUUNION":545,
+  "EEACOUNTRY":20,
+  "EUCOUNTRY":60,
+  "AF":55,
+  "AS":195,
+  "AUS":100,
+  "ME":100,
+  "NA":225,
+  "SA":15
+ // "UK":38  //38485
+},
+
+  //2014
+  { "EUUNION":525,
+  "EEACOUNTRY":35,
+  "EUCOUNTRY":55,
+  "AF":65,
+  "AS":190,
+  "AUS":120,
+  "ME":75,
+  "NA":260,
+  "SA":20
+ // "UK":38  //38485
+},
+
+  //2015
+      { "EUUNION":655,
       "EEACOUNTRY":20,
       "EUCOUNTRY":60,
       "AF":55,
@@ -51,20 +159,27 @@ var latlong = {
       "AUS":120,
       "ME":75,
       "NA":260,
-      "SA":20,
-      "UK":38},//38485
-  
-      { "EUUNION":545,
-      "EEACOUNTRY":20,
-      "EUCOUNTRY":60,
-      "AF":55,
-      "AS":195,
-      "AUS":120,
-      "ME":75,
-      "NA":260,
-      "SA":20,
-      "UK":38  //38485
-  }
+      "SA":20
+      //"UK":38},//38485
+  },
+
+    //2016
+    { "EUUNION":655,
+    "EEACOUNTRY":20,
+    "EUCOUNTRY":60,
+    "AF":55,
+    "AS":195,
+    "AUS":120,
+    "ME":75,
+    "NA":260,
+    "SA":20
+    //"UK":38},//38485
+},
+
+
+
+
+
   ]
 var map;
 var minBulletSize = 3;
@@ -101,8 +216,8 @@ AmCharts.ready(function() {
     map = new AmCharts.AmMap();
     map.path = "https://www.amcharts.com/lib/3/";
 
-    map.addTitle("Population of the World in 2011", 14);
-    map.addTitle("source: Gapminder", 11);
+    map.addTitle("STEM graduations overseas migration from 2007-2016 ", 14);
+    //map.addTitle("source: Gapminder", 11);
     map.areasSettings = {
         unlistedAreasColor: "#000000",
         unlistedAreasAlpha: 0.1

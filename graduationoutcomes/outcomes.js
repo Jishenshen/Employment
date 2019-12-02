@@ -1,5 +1,5 @@
 var d3 = Plotly.d3;
-var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/salary.csv'
+var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/salary%20copy.csv'
 d3.csv(dataUrl, (err, rows) => {
 	var fig = makeFigure(rows)
 	var frames = fig.frames
@@ -50,14 +50,14 @@ function makeFigure (rows) {
 	return {
 		data: [
 			{
-				name: 'trail',
-				mode: 'markers+lines',
+				//name: continent,
+				mode: 'markers',
 				marker: {
 					sizemode: 'area',
 					sizeref: 200000,
 				},
 				line: {
-					simplify: false,
+					simplify: true,
 					width: 1						
 				},
 				hoverinfo: 'skip'
@@ -96,15 +96,19 @@ function makeFigure (rows) {
         		font: {size: 10}
 			}],
 			xaxis: {
-				title: ' Year',
+				title: ' Salary',
 				range: [15000,40000]
 			},
 			yaxis: {
-				title: 'Employment',
+				title: 'Region of residence',
 				type: 'log'
 			},
-			showlegend: true,
-			hovermode: 'closest'
+		
+				showLegend:true,
+				
+				hovermode: 'closest'
+		
+			
 		},
 		frames: years.map(y => ({
 			name: y,
@@ -118,11 +122,12 @@ function onClick (gd, frames, evt) {
 	var pt = evt.points[0]
 	var id = pt.id
 	var index = pt.data.ids.indexOf(id)
-	var year = pt.data.name
+	//var year = pt.data.name
+	var continent = pt.data.name
 	var color = pt['marker.color']
 	
 	var opacity = pt.data.x
-		.map((_, i) => i === index ? 1 : 0.3)
+		.map((_, i) => i === index ? 1 : 0.1)
 	
 	var x = []
 	var y = []
@@ -148,10 +153,10 @@ function onClick (gd, frames, evt) {
 	
 	Plotly.addFrames(gd, frames)
 	
-	Plotly.animate(gd, [year], {
+	Plotly.animate(gd, [continent], {
 		mode: 'immediate',
-		frame: {duration: 0},
-		transition: {duration: 0}
+		frame: {duration: 1000},
+		transition: {duration: 10}
 	})
 }
 
@@ -179,7 +184,7 @@ function makePlayPauseMenu () {
         args: [[null], {
           mode: 'immediate',
           transition: {duration: 0},
-          frame: {duration: 0, redraw: false}
+          frame: {duration: 100, redraw: false}
         }],
         label: 'Pause'
       }]
