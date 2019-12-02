@@ -1,5 +1,5 @@
 var d3 = Plotly.d3;
-var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/graduationoutcomes.csv'
+var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/salary.csv'
 d3.csv(dataUrl, (err, rows) => {
 	var fig = makeFigure(rows)
 	var frames = fig.frames
@@ -97,7 +97,7 @@ function makeFigure (rows) {
 			}],
 			xaxis: {
 				title: ' Year',
-				range: [0,6]
+				range: [15000,40000]
 			},
 			yaxis: {
 				title: 'Employment',
