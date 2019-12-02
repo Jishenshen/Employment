@@ -1,0 +1,53 @@
+region,year,pop,continent,lifeExp,gdpPercap
+Abroad,2005,0.4,Abroad,19900,0.4
+Abroad,2010,0.8,Abroad,19900,0.8
+Abroad,2012,1.4,Abroad,26000,1.4
+Abroad,2015,2.7,Abroad,30500,2.7
+East Midlands,2005,7.2,East Midlands,19200,7.2
+East Midlands,2010,7.1,East Midlands,22000,7.1
+East Midlands,2012,6.7,East Midlands,24000,6.7
+East Midlands,2015,6.5,East Midlands,27700,6.5
+East of England,2005,9.4,East of England,20400,9.4
+East of England,2010,9.4,East of England,23900,9.4
+East of England,2012,9,East of England,26800,9
+East of England,2015,8.7,East of England,32100,8.7
+London,2005,21,London,21700,21
+London,2010,22.6,London,26400,22.6
+London,2012,23.5,London,30400,23.5
+London,2015,21.8,London,37700,21.8
+North East,2005,4.1,North East,18700,4.1
+North East,2010,4,North East,21200,4
+North East,2012,3.9,North East,23000,3.9
+North East,2015,3.8,North East,27100,3.8
+North West,2005,12.8,North West,18500,12.8
+North West,2010,12.6,North West,21400,12.6
+North West,2012,12,North West,23300,12
+North West,2015,3.8,North West,27600,3.8
+Northern Ireland,2005,0.7,Northern Ireland,17900,0.7
+Northern Ireland,2010,0.6,Northern Ireland,19900,0.6
+Northern Ireland,2012,0.6,Northern Ireland,22000,0.6
+Northern Ireland,2015,0.5,Northern Ireland,25500,0.5
+Scotland,2005,0.8,Scotland,22200,0.8
+Scotland,2010,0.9,Scotland,23700,0.9
+Scotland,2012,1,Scotland,26800,1
+Scotland,2015,1.3,Scotland,29700,1.3
+South East,2005,15.1,South East,21100,15.1
+South East,2010,14.6,South East,24600,14.6
+South East,2012,14.1,South East,27300,14.1
+South East,2015,14.1,South East,32000,14.1
+South West,2005,7.9,South West,19100,7.9
+South West,2010,7.8,South West,21900,7.8
+South West,2012,7.6,South West,24000,7.6
+South West,2015,7.9,South West,26700,7.9
+Wales,2005,1.6,Wales,18700,1.6
+Wales,2010,1.3,Wales,21400,1.3
+Wales,2012,1.3,Wales,23900,1.3
+Wales,2015,1.5,Wales,27700,1.5
+West Midlands,2005,9.1,West Midlands,19200,9.1
+West Midlands,2010,8.6,West Midlands,22000,8.6
+West Midlands,2012,8.4,West Midlands,24000,8.4
+West Midlands,2015,7.8,West Midlands,27700,7.8
+Yorkshire and The Humber,2005,9.1,Yorkshire and The Humber,18500,9.1
+Yorkshire and The Humber,2010,8.6,Yorkshire and The Humber,21400,8.6
+Yorkshire and The Humber,2012,8.4,Yorkshire and The Humber,23200,8.4
+Yorkshire and The Humber,2015,7.8,Yorkshire and The Humber,27000,7.8
