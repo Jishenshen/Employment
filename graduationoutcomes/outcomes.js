@@ -1,6 +1,5 @@
 var d3 = Plotly.d3;
-var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/difyears_graclean.csv'
-
+var dataUrl = 'https://raw.githubusercontent.com/Jishenshen/Employment/master/data/graduationoutcomes.csv'
 d3.csv(dataUrl, (err, rows) => {
 	var fig = makeFigure(rows)
 	var frames = fig.frames
@@ -23,7 +22,7 @@ function makeFigure (rows) {
 		text: [],
 		marker: {
 		   sizemode: 'area',
-     	   sizeref: 50,
+     	   sizeref: 0.01,
 			size: [],
 			color: []
 		}
@@ -94,17 +93,17 @@ function makeFigure (rows) {
         		yref: 'paper',
         		xanchor: 'left',
         		yanchor: 'bottom',
-        		font: {size: 18}
+        		font: {size: 10}
 			}],
 			xaxis: {
 				title: ' Year',
-				range: [6,17]
+				range: [0,6]
 			},
 			yaxis: {
 				title: 'Employment',
 				type: 'log'
 			},
-			showlegend: false,
+			showlegend: true,
 			hovermode: 'closest'
 		},
 		frames: years.map(y => ({
